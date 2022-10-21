@@ -1,15 +1,15 @@
 <div class="container_big-card">
     <div class="big-card_photo">
-        <img src="https://i.ytimg.com/vi/So_-H_IADu0/maxresdefault.jpg" alt="">
+        <img src="{{ photoCover }}" alt="">
     </div>
 
     <div class="big-card_title">
-        <h1><a href="#" target="_self">Saiu a nova versão do Angular</a></h1>
+        <h1><a [routerLink]="['content', Id]" target="_self">{{ cardTitle }}</a></h1>
     </div>
 
     <div class="big-card_description">
         <p>
-            <a href="#" target="_self">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quisquam impedit sunt, ab dolor alias nesciunt quidem placeat dolorum reprehenderit.</a>
+            <a [routerLink]="['content', Id]" target="_self">{{ cardDescription }}</a>
         </p>
     </div>
 </div>

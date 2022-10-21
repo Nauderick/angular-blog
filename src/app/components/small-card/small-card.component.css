@@ -1,6 +1,7 @@
 .container_small-card {
     width: 40vw;
     margin-bottom: 15px;
+    background-color: #00000054;
 }
 
 .container_small-card-content {
